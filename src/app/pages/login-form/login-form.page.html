@@ -5,5 +5,12 @@
 </ion-header>
 
 <ion-content>
-
+  <h3>Auth by Email link with whitelist</h3>
+  <form>
+    <ion-input type="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}"  placeholder="Enter your email"></ion-input>
+  </form>
+  
+  <ion-button (click)="sendSignInLinkToEmail(email)">
+    <i class="fa fa-google"></i> Send Sign-in link to email
+  </ion-button>
 </ion-content>
