@@ -1,0 +1,7 @@
+{
+  "name": "mmb-demos.firebase-email-authentication-ionic4",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
